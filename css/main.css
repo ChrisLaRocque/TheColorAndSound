@@ -8,6 +8,9 @@ body {
   padding-top: 5px;
   /*font-family: 'IBM Plex Sans Condensed', sans-serif;*/
 }
+footer {
+  text-align: center;
+}
 p {
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
@@ -23,8 +26,10 @@ div {
 a:link {
   color: white;
   text-decoration: none;
-  width: fit-content;
-  width: -moz-fit-content;
+}
+a:hover{
+  opacity: 0.7;
+  transition: opacity .25s;
 }
 a:visited {
   color: white;
@@ -34,19 +39,20 @@ h1, h2 {
   display: inline-block;
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 iframe.bc {
     vertical-align: top;
     padding-right: 5px;
     padding-bottom: 5px;
 }
-.fa {
-  font-size: 1.8rem;
-}
 #nav {
   text-transform: uppercase;
-  text-align:  left;
-  width: fit-content;
+  width: 15%;
+  display: inline-block;
+  height: 100%;
+  position: fixed;
 }
 #nav ul {
   list-style: none;
@@ -60,9 +66,8 @@ iframe.bc {
   padding: 0 5px;
   margin: 2px auto;
   align: center;
-  font-weight: bold;
   font-size: 3rem;
-  width: 150px;
+  font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
 }
@@ -70,17 +75,63 @@ iframe.bc {
   opacity: 0.7;
   transition: opacity .25s;
 }
+#socials {
+  width: fit-content%;
+  display: inline;
+}
 #socials img {
-  height: 40px;
-  width: 40px;
+  max-height: 57px;
+  width: 57px;
+  padding: 0 4px;
+  vertical-align: top;
 }
-.hovopac:hover{
-  opacity: 0.7;
-  transition: opacity .25s;
+.block {
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  padding: 0 5px;
 }
-
-    width: 66%;
-    display: block;
-    margin: 0 auto;
-  }
+.block h1 {
+  font-size: 3rem;
+  padding-left: 13px;
+  margin: 2px 0;
+}
+.block article {
+  height: auto;
+  width: auto;
+  border-radius: 14px;
+  border: 3px solid white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#music {
+  width: 25%;
+}
+.content {
+  width: 85%;
+  margin-left: 14%;
+}
+.content iframe {
+  vertical-align: top;
+  border-radius: 14px;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  margin: 60px 4px;
+  height: 579px;
+  width: 320px;
+}
+.content img {
+  border-radius: 14px;
+  width: 96%;
+  margin: 2px;
+}
+#news {
+  width: 65%;
+}
+#info {
+  width: 30%;
+}
+#info img {
+  width: 23%;
+  vertical-align: top;
 }

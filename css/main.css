@@ -42,11 +42,6 @@ h1, h2 {
   text-transform: uppercase;
   font-weight: bold;
 }
-iframe.bc {
-    vertical-align: top;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
 #nav {
   text-transform: uppercase;
   width: 15%;
@@ -104,12 +99,14 @@ iframe.bc {
   padding: 10px;
   margin-bottom: 10px;
 }
-#music {
-  width: 25%;
-}
 .content {
   width: 85%;
   margin-left: 14%;
+}
+.content img {
+  border-radius: 14px;
+  width: 96%;
+  margin: 2px;
 }
 .content iframe {
   vertical-align: top;
@@ -120,10 +117,9 @@ iframe.bc {
   height: 579px;
   width: 320px;
 }
-.content img {
-  border-radius: 14px;
-  width: 96%;
-  margin: 2px;
+#music {
+  width: 25%;
+  max-height: 579px;
 }
 #news {
   width: 65%;

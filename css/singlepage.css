@@ -5,12 +5,11 @@ summary {
   outline:none;
 }
 .module {
-  border-radius: 14px;
+  border-radius: 1em;
   width: 85%;
-  min-width: 500px;
   margin: 1em auto;
   padding: 1em;
-  box-shadow: 10px 10px 8px #888888;
+  /*box-shadow: 10px 10px 8px #888888;*/
 }
 .header {
   color: white;
@@ -92,11 +91,14 @@ iframe {
 #socials {
   display: inline-block;
 }
-#socials img {
-  height: 5em;
-}
 .tcas #socials {
   float: right;
+}
+.tcas #socials img {
+  height: 5em;
+}
+footer #socials img {
+  height: 3em;
 }
 
 
@@ -147,10 +149,42 @@ footer {
 }
 footer p {
   color: black;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
-
+  text-transform: uppercase;
 }
+/*MEDIA QUERIES, BABY!*/
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: .95em;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: .80em;
+  }
+}
+@media screen and (max-width: 775px) {
+  html {
+    font-size: .65em;
+  }
+}
+@media screen and (max-width: 630px) {
+  html {
+    font-size: .5em;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: .35em;
+  }
+}
+@media screen and (max-width: 350px) {
+  html {
+    font-size: .25em;
+  }
+}
+
 /*Hackeroos*/
 /* Hides detail marker on FF */
 details > summary {

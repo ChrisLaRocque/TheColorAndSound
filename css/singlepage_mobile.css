@@ -1,12 +1,13 @@
 body {
 }
+details {
+  width: 4px;
+}
 summary {
   outline:none;
 }
 .module {
   border-radius: 14px;
-  width: 85%;
-  min-width: 500px;
   margin: 1rem auto;
   padding: 1rem;
   box-shadow: 10px 10px 8px #888888;
@@ -16,17 +17,16 @@ summary {
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 1rem;
   padding: 1rem;
 }
 .tcas {
   background-color: black;
   margin: 2rem auto;
-  width: 95%;
 }
 .tcas h1 {
   margin: 0;
-  width: 33%;
+  width: 50%;
   display: inline-block;
 }
 .music {
@@ -75,12 +75,11 @@ p {
   padding: 1rem;
 }
 #socials {
-  float: right;
-  display: inline-block;
+  display: block;
   margin-top: 0.15rem;
 }
 #socials img {
-  height: 5rem;
+  height: 3rem;
 }
 
 

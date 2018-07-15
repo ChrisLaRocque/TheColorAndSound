@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Color and Sound - Home</title>
+    <link rel="icon" type="image/png" href="img/vinyl.png">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/singlepage.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="module tcas">
+      <h1 class="header">The Color And Sound</h1>
+      <div id="socials">
+        <a href="https://www.facebook.com/TheColorAndSound/" target="_blank">
+          <img src="img/facebook-logo.png" alt="facebook"/>
+        </a>
+        <a href="https://www.instagram.com/thecolorandsound/" target="_blank">
+          <img src="img/instagram-social-network-logo-of-photo-camera.png" alt="instagram"/>
+        </a>
+        <a href="https://twitter.com/TeamTCAS" target="_blank">
+          <img src="img/if_social_style_3_twiter_341111.png" alt="twitter"/>
+        </a>
+      </div>
+    </div>
+
+    <details class="module music">
+      <summary class="header">Music</summary>
+      <div id="music">
+      <div id="music-summary" class="border">
+        <article>
+        <h2>Here's the Music we've put out</h2>
+        <p>We've been a band for 6 years, and all we have to show for it are these 14 lousy songs.</p><br/>
+        <h2 style="text-transform:none;"><em>hi. (2015)</em></h2>
+        <p>After releasing <em>Peace of Mind</em> we toured for a bit and then took an extended break to get our bearings. Working on <em>hi.</em> gave us the chance to regroup and have a delightful time recording new songs we loved with no pressure.</p><br/>
+        <h2><em>Peace of Mind (2014)</em></h2>
+        <p>Our sophomore effort. This EP is like when you had to write essays in high school supporting an argument opposite the one you'd naturally take. You know you worked really hard on it, and if you remember correctly it came out great, but you can't fucking stand to go back and check it out.</p><br/>
+        <h2><em>The Spring Tour EP (2013)</em></h2>
+        <p>Our first EP, hastily written, recorded, and released moments before we left for our first tour in March of 2013</p>
+        </article>
+      </div>
+      <div id="players">
+        <iframe style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=954400969/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"></iframe>
+        <iframe style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=3960660378/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"></iframe>
+        <iframe style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=2561782465/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"></iframe>
+      </div>
+    </div>
+    </details>
+
+    <details class="module tour">
+      <summary class="header">Tour</summary>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Venue</th>
+          <th>Location</th>
+          <th>Tickets</th>
+        </tr>
+        <tr>
+          <td>9/12</td>
+          <td>The Howard Theatre</td>
+          <td>Washington, D.C.</td>
+          <td><a href="https://www1.ticketmaster.com/event/150054E9E56572A8">Get Tickets</a></td>
+        </tr>
+        <tr>
+          <td>9/13</td>
+          <td>Reverb</td>
+          <td>Reading, PA</td>
+          <td><a href="https://www1.ticketmaster.com/event/020054E4C6CE6C51">Get Tickets</a></td>
+        </tr>
+        <tr>
+          <td>9/14</td>
+          <td>The Bakery</td>
+          <td>Charleston, WV</td>
+          <td><a href="https://www.brownpapertickets.com/event/3560069">Get Tickets</a></td>
+        </tr>
+        <tr>
+          <td>9/18</td>
+          <td>Bogart's</td>
+          <td>Cincinnati, OH</td>
+          <td><a href="https://www1.ticketmaster.com/event/160054EA916D4AF4">Get Tickets</a></td>
+        </tr>
+      </table>
+    </details>
+
+    <details class="module store" onclick="storeLink()">
+      <summary class="header">Store</summary>
+    </details>
+
+    <details class="module contact">
+      <summary class="header">Say What's Up</summary>
+      <div class="border">
+        <article>
+          <h2>Contact us via the form below, or by emailing us at <a href="mailto:thecolorandsound@gmail.com">thecolorandsound@gmail.com</a></h2>
+          <form action="form_handler.php" method="post">
+            <h2>Name</h2><br>
+            <input type="text" name="name"><br>
+            <h2>Email Address</h2><br>
+            <input type="text" name="email"><br>
+            <h2>Message</h2><br>
+            <textarea name="message" rows="10" cols="30"></textarea><br>
+            <input type="submit" name="submit" value="Submit">
+          </form>
+        </article>
+      </div>
+    </details>
+
+    <script>
+    function storeLink() {
+      window.open("https://thecolorandsound.bandcamp.com/merch/")
+    }
+    </script>
+  </body>
+</html>

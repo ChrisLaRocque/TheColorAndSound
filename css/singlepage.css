@@ -1,4 +1,5 @@
-body {
+html {
+  font-size: 1em;
 }
 summary {
   outline:none;
@@ -7,8 +8,8 @@ summary {
   border-radius: 14px;
   width: 85%;
   min-width: 500px;
-  margin: 1rem auto;
-  padding: 1rem;
+  margin: 1em auto;
+  padding: 1em;
   box-shadow: 10px 10px 8px #888888;
 }
 .header {
@@ -16,17 +17,16 @@ summary {
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 3rem;
-  padding: 1rem;
+  font-size: 3em;
+  padding: .5em;
 }
 .tcas {
   background-color: black;
-  margin: 2rem auto;
+  margin: 2em auto;
   width: 95%;
 }
 .tcas h1 {
   margin: 0;
-  width: 33%;
   display: inline-block;
 }
 .music {
@@ -38,7 +38,7 @@ summary {
 .store {
   background-color: #FECEA8;
 }
-.contact {
+.about {
   background-color: #99B898;
 }
 a:link {
@@ -49,38 +49,54 @@ a:visited {
   color: white;
   text-decoration: none;
 }
+a:hover {
+  opacity: .7;
+  transition: opacity .15s
+}
 .border {
   border: 6px solid white;
   border-radius: 14px;
 }
 article {
-  margin: 1rem;
+  margin: 1em;
 }
 h2 {
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin: 0 auto;
 }
 p {
   font-family: 'Cabin', sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
   color: white;
 }
 #music-summary {
-  width:30%;
+  width: 25%;
   display: inline-block;
-  padding: 1rem;
+  padding: 1em;
+  vertical-align: top;
+}
+#players {
+  width: 55%;
+  display: inline-block;
+  text-align: center;
+}
+iframe {
+  width: 100%;
+  height: 250px;
+  display: block;
 }
 #socials {
-  float: right;
   display: inline-block;
-  margin-top: 0.15rem;
 }
 #socials img {
-  height: 5rem;
+  height: 5em;
+}
+.tcas #socials {
+  float: right;
 }
 
 
@@ -91,20 +107,20 @@ table {
   border-spacing: 0 1em;
   color: white;
   text-align: center;
-  margin: 0 auto;
+  margin: 1.5em auto;
 }
 th {
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 3em;
 }
 tr {
-  line-height: 4rem;
+  line-height: 4em;
 }
 td {
   font-family: 'Cabin', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   border-top: 2px solid white;
 }
 td a {
@@ -119,9 +135,22 @@ td a:hover {
   text-transform: uppercase;
   padding: 5px;
   background-color: white;
-  color: #FF847C
+  color: #FF847C;
+  opacity: 1;
 }
+footer {
+  text-align: center;
+  margin: 2em auto;
+  padding: 0;
+  border-top: .25em solid black;
+  width: 25%;
+}
+footer p {
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1em;
 
+}
 /*Hackeroos*/
 /* Hides detail marker on FF */
 details > summary {

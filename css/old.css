@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: auto;
+  width: 97%;
+  padding-top: 5px;
+  /*font-family: 'IBM Plex Sans Condensed', sans-serif;*/
+}
+footer {
+  text-align: center;
+}
+p {
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+div {
+    align: center;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.7;
+  transition: opacity .25s;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+h1, h2 {
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+form {
+  width: 100%;
+}
+#nav {
+  text-transform: uppercase;
+  width: 15%;
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  min-width: 200px;
+}
+#nav ul {
+  list-style: none;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+#nav ul li {
+  color: white;
+  display: block;
+  border-radius: 14px;
+  padding: 0 5px;
+  margin: 2px auto;
+  align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+}
+#socials img {
+  max-height: 57px;
+  width: 29%;
+  vertical-align: top;
+}
+.block {
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  padding: 0 5px;
+}
+.block h1 {
+  font-size: 3rem;
+  padding-left: 13px;
+  margin: 2px 0;
+}
+.block article {
+  height: auto;
+  width: auto;
+  border-radius: 14px;
+  border: 3px solid white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.content {
+  width: 80%;
+  display: inline-block;
+}
+.content img {
+  border-radius: 14px;
+  width: 96%;
+  margin: 2px;
+}
+.content iframe {
+  vertical-align: top;
+  border-radius: 14px;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  margin: 60px 4px;
+  height: 579px;
+  width: 22%;
+  display:inline-block;
+}
+#music {
+  width: 22%;
+  max-height: 579px;
+}
+#news {
+  width: 65%;
+}
+#info {
+  width: 30%;
+}
+#info img {
+  width: 23%;
+  vertical-align: top;
+}

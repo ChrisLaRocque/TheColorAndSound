@@ -1,129 +1,225 @@
-* {
-  margin: 0;
-  padding: 0;
+/*Main Elements and Classes Styles*/
+html {
+  font-size: 1em;
 }
-body {
-  margin: auto;
-  width: 97%;
-  padding-top: 5px;
-  /*font-family: 'IBM Plex Sans Condensed', sans-serif;*/
-}
-footer {
-  text-align: center;
+summary {
+  outline: none;
 }
 p {
   font-family: 'Cabin', sans-serif;
-  font-size: 16px;
+  font-size: 1.25em;
   color: white;
-}
-img {
-    width: 100%;
-    height: auto;
-}
-div {
-    align: center;
 }
 a:link {
   color: white;
   text-decoration: none;
 }
-a:hover{
-  opacity: 0.7;
-  transition: opacity .25s;
-}
 a:visited {
   color: white;
   text-decoration: none;
 }
-h1, h2 {
-  display: inline-block;
-  font-family: 'Roboto Condensed', sans-serif;
+a:hover {
+  opacity: .7;
+  transition: opacity .15s
+}
+.border {
+  border: .25em solid white;
+  border-radius: 14px;
+}
+#socials {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Sets up styling for modules and their headers*/
+.module {
+  border-radius: 1em;
+  width: 90%;
+  margin: 1em auto;
+  padding: 1em;
+  /*box-shadow: 10px 10px 8px #888888;*/
+}
+.header {
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 3em;
+  padding: .5em;
 }
-form {
-  width: 100%;
+
+/*Site Header Styling */
+.tcas {
+  background-color: black;
+  margin: 2em auto;
+  width: 90%;
 }
-#nav {
-  text-transform: uppercase;
-  width: 15%;
-  display: inline-block;
-  height: 100%;
+.tcas h1 {
+  margin: 0;
+  display: block;
+  padding: .3em;
+}
+.tcas #socials {
+  margin-left: 1em;
+  margin-bottom: .5em;
+}
+.tcas #socials img {
+  height: 3em;
+}
+
+/*Music Module Styling */
+.music {
+  background-color: #E84A5F;
+}
+#music-summary {
+  display: block;
+  padding: 1em;
   vertical-align: top;
-  min-width: 200px;
 }
-#nav ul {
-  list-style: none;
+h2 {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+article {
+  margin: 1em 1em 0 1em;
+}
+#players {
+  display: block;
+  text-align: center;
+}
+#players div {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+#players h2 {
+  display: inline-block;
   width: fit-content;
   width: -moz-fit-content;
+  border: .12em solid white;
+  border-radius: .35em;
+  padding: .5em;
+  margin-bottom: .5em;
 }
-#nav ul li {
+iframe {
+  width: 100%;
+  height: 18em;
+  border-radius: .5em;
+}
+
+/*Tour Module Styling*/
+.tour {
+  background-color: #FF847C;
+}
+/*Tour Table*/
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border-spacing: 0 1em;
   color: white;
-  display: block;
-  border-radius: 14px;
-  padding: 0 5px;
-  margin: 2px auto;
-  align: center;
-  font-size: 3rem;
+  text-align: center;
+  margin: 1.5em auto;
+}
+th {
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
-  text-align: left;
+  text-transform: uppercase;
+  font-size: 2em;
 }
-#socials img {
-  max-height: 57px;
-  width: 29%;
-  vertical-align: top;
+tr {
+  line-height: 4em;
 }
-.block {
-  display: inline-block;
-  height: auto;
-  vertical-align: top;
-  padding: 0 5px;
+td {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.5em;
+  border-top: .1em solid white;
 }
-.block h1 {
-  font-size: 3rem;
-  padding-left: 13px;
-  margin: 2px 0;
+td a {
+  border: .05em solid white;
+  border-radius: .5em;
+  text-transform: uppercase;
+  padding: .5em;
 }
-.block article {
-  height: auto;
-  width: auto;
-  border-radius: 14px;
-  border: 3px solid white;
-  padding: 10px;
-  margin-bottom: 10px;
+td a:hover {
+  border: .05em solid;
+  border-radius: .5em;
+  text-transform: uppercase;
+  padding: .5em;
+  background-color: white;
+  color: #FF847C;
+  opacity: 1;
 }
-.content {
-  width: 80%;
-  display: inline-block;
+
+/*Store Module Styling*/
+.store {
+  background-color: #FECEA8;
 }
-.content img {
-  border-radius: 14px;
-  width: 96%;
-  margin: 2px;
+
+/*About Module Styling */
+.about {
+  background-color: #99B898;
 }
-.content iframe {
-  vertical-align: top;
-  border-radius: 14px;
-  -moz-border-radius: 14px;
-  -webkit-border-radius: 14px;
-  margin: 60px 4px;
-  height: 579px;
-  width: 22%;
-  display:inline-block;
-}
-#music {
-  width: 22%;
-  max-height: 579px;
-}
-#news {
-  width: 65%;
-}
-#info {
+
+/*Footer Section Styling*/
+footer {
+  text-align: center;
+  margin: 2em auto;
+  padding: 0;
+  border-top: .25em solid black;
   width: 30%;
 }
-#info img {
-  width: 23%;
-  vertical-align: top;
+footer p {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+footer #socials img {
+  height: 3em;
+}
+
+/*MEDIA QUERIES, BABY!*/
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: .95em;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: .80em;
+  }
+}
+@media screen and (max-width: 775px) {
+  html {
+    font-size: .65em;
+  }
+}
+@media screen and (max-width: 630px) {
+  html {
+    font-size: .5em;
+  }
+}
+@media screen and (max-width: 510px) {
+  html {
+    font-size: .35em;
+  }
+}
+@media screen and (max-width: 365px) {
+  html {
+    font-size: .25em;
+  }
+}
+
+/*Hackeroos*/
+/* Hides detail marker on FF */
+details > summary {
+  list-style: none;
+}
+/* Hides detail marker on Chrome */
+::-webkit-details-marker {
+  display: none
 }

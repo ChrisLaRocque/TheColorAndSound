@@ -110,6 +110,9 @@ iframe {
   height: 18em;
   border-radius: .5em;
 }
+div.streaming-logos {
+  display: none;
+}
 
 /*Tour Module Styling*/
 .tour {
@@ -191,6 +194,16 @@ footer #socials img {
 @media screen and (max-width: 900px) {
   html {
     font-size: .80em;
+  }
+  #players div {
+    display: none;
+  }
+  div.streaming-logos {
+    display: block;
+    text-align: center;
+  }
+  .streaming-logos img {
+    width: 20em;
   }
 }
 @media screen and (max-width: 775px) {

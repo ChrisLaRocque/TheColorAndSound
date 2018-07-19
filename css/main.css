@@ -47,6 +47,9 @@ a:hover {
   font-size: 3em;
   padding: .5em;
 }
+.header:hover {
+  cursor:pointer
+}
 
 /*Site Header Styling */
 .tcas {
